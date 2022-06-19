@@ -1,0 +1,42 @@
+@import "normalize.css";
+@import "skeleton.css";
+
+body {
+  background-image: url("../img/bg.jpg");
+  color: azure;
+}
+
+.container {
+  text-align: center;
+}
+
+label {
+  text-align: left;
+}
+
+img {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-component {
+  margin: 16px 32px;
+  padding: 16px 32px;
+}
+
+span {
+  font-size: 18px;
+}
+
+span.title{
+  margin-right: 16px;
+  font-weight: bold;
+}
